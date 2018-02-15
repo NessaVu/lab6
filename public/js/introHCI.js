@@ -29,7 +29,7 @@ function addProjectDetails(e) {
 	console.log("User clicked on project " + idNumber);
 
 	$.get("/project/" + idNumber,callbackFunction);
-	console.log("localhost:3000/project/" + idNumber);
+	console.log("/project/" + idNumber);
 }
 
 function callbackFunction(result){
